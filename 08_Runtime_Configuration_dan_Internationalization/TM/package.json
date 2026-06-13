@@ -1,0 +1,12 @@
+{
+"name": "tm08",
+"version": "1.0.0",
+"description": "Runtime Configuration dan Internationalization",
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"dependencies": {
+"dotenv": "^17.0.0"
+}
+}
