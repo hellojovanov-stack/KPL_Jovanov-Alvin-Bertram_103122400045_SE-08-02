@@ -1,0 +1,105 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inconsolata', monospace;
+    margin:0;
+    padding:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    transition:background-color .3s ease,
+               color .3s ease;
+}
+
+.container{
+    max-width:600px;
+    width:100%;
+    padding:20px;
+    text-align:left;
+}
+
+.kotak-input{
+    width:100%;
+    display:block;
+    resize:none;
+    padding:10px;
+    font-family:'Inconsolata', monospace;
+
+    transition:background-color .3s ease,
+               color .3s ease,
+               border-color .3s ease;
+}
+
+p > span{
+    color:coral;
+    font-weight:bold;
+}
+
+button{
+    font-family:'Inconsolata', monospace;
+    cursor:pointer;
+
+    padding:5px 10px;
+    margin-right:5px;
+}
+
+.grup-tg{
+    margin-top:15px;
+}
+
+/* LIGHT */
+
+.light-mode{
+    background:#ffffff;
+    color:#000000;
+}
+
+.light-mode .kotak-input{
+    background:#ffffff;
+    color:#000000;
+    border:1px solid #cccccc;
+}
+
+/* DARK */
+
+.dark-mode{
+    background:#171b25;
+    color:#ebecf7;
+}
+
+.dark-mode .kotak-input{
+    background:#2e3443;
+    color:#ebecf7;
+    border:1px solid #4a5568;
+}
+
+.dark-mode button{
+    background:#29ddcc;
+    border:none;
+    color:#000000;
+}
+
+/* SEPIA */
+
+.sepia-mode{
+    background:#F4ECD8;
+    color:#5B4636;
+}
+
+.sepia-mode .kotak-input{
+    background:#ffffff;
+    color:#000000;
+    border:1px solid #cccccc;
+}
+
+.sepia-mode button{
+    background:#29ddcc;
+    border:none;
+    color:#000000;
+}

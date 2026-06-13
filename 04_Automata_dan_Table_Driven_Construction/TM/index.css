@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 15px;
+}
+
+button {
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.mode-div {
+    margin-top: 10px;
+}
+
+/* MODE TERANG */
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode textarea {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+.light-mode button {
+    background-color: #f0f0f0;
+    color: #000000;
+    border: 1px solid #999999;
+}
+
+/* MODE GELAP */
+
+.dark-mode {
+    background-color: #171b25;
+    color: #ebecf7;
+}
+
+.dark-mode textarea {
+    background-color: #2e3443;
+    color: #ebecf7;
+    border: 1px solid #4a5568;
+}
+
+.dark-mode button {
+    background-color: #29ddcc;
+    color: #000000;
+    border: none;
+}
+
+/* MODE SEPIA */
+
+.sepia-mode {
+    background-color: #F4ECD8;
+    color: #5B4636;
+}
+
+.sepia-mode textarea {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+.sepia-mode button {
+    background-color: #29ddcc;
+    color: #000000;
+    border: none;
+}
