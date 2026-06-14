@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/hellojovanov-stack/KPL_Jovanov-Alvin-Bertram_103122400045_SE-08-02#readme",
   "dependencies": {
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1"
   }
 }
